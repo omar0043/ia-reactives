@@ -4,9 +4,9 @@ Jeu de chasse sous-marine original, inspiré des mécaniques de chasse, survie e
 
 **Compte GitHub : [omar0043](https://github.com/omar0043)** — compléter les noms du binôme si nécessaire.
 
-**Jouer directement :** https://omar0043.github.io/ia-reactives/
+**Jouer directement :** https://abyss-hunt-ocean.dewyhake17.chatgpt.site
 
-Le jeu est hébergé sur GitHub Pages. Le bouton de son se trouve au menu et dans la pause. Aucun téléchargement ni compte n’est nécessaire pour jouer.
+Le code source est dans ce dépôt GitHub et le jeu est accessible publiquement au lien ci-dessus. Le bouton de son se trouve au menu et dans la pause. Aucun téléchargement n’est nécessaire pour jouer.
 
 **Vidéo YouTube de présentation : À RENSEIGNER si exigée pour votre promotion.**
 
@@ -217,7 +217,7 @@ Le script vérifie Seek/Flee/Arrive, projection, prédiction, évitement, restau
 
 ## Publication GitHub Pages
 
-Ce dépôt se publie depuis **Settings → Pages → Deploy from a branch → main → / (root)**. Le fichier `index.html` à la racine ouvre `dist/index.html`. Le fichier `.nojekyll` permet de servir les fichiers statiques directement. Chaque modification de `main` actualise le jeu après déploiement.
+Pour héberger aussi le jeu sur GitHub Pages, activer **Settings → Pages → Deploy from a branch → main → / (root)**. Le fichier `index.html` à la racine ouvre `dist/index.html`. Le fichier `.nojekyll` permet de servir les fichiers statiques directement. Après cette activation, l’adresse GitHub Pages sera https://omar0043.github.io/ia-reactives/ ; chaque modification de `main` actualisera cette copie du jeu après déploiement.
 
 Pour itch.io : créer un projet de type HTML, zipper les fichiers contenus dans `dist` avec `index.html` à la racine du ZIP, puis l'importer et activer la lecture dans le navigateur. Le ZIP de rendu complet contient aussi la documentation : ne pas l'utiliser tel quel comme build itch.io.
 
@@ -244,4 +244,4 @@ Cette section doit être rédigée par la personne qui rend le projet après man
 
 ## Périmètre et transparence
 
-Le support regroupe plusieurs promotions, années et sujets. Le projet couvre les familles de concepts du cours dans le jeu et dans son laboratoire ; **il ne prétend pas reproduire chaque exercice ni chaque démo du support** (voiture, fusée, toutes les variantes de formations, etc.). Aucun asset d'Ubisoft / Hungry Shark n'est utilisé. Tout le rendu des créatures, du récif et du son est procédural. Les assistants n'ont envoyé ni devoir ni email au professeur, créé de vidéo YouTube ou publié de dépôt GitHub en votre nom. Le lien Sites est une démo privée, pas la publication publique éventuellement imposée.
+Le support regroupe plusieurs promotions, années et sujets. Le projet couvre les familles de concepts du cours dans le jeu et dans son laboratoire ; **il ne prétend pas reproduire chaque exercice ni chaque démo du support** (voiture, fusée, toutes les variantes de formations, etc.). Aucun asset d'Ubisoft / Hungry Shark n'est utilisé. Tout le rendu des créatures, du récif et du son est procédural. Le code, la documentation et la vidéo de démonstration ont été préparés avec ChatGPT / Codex. Le dépôt GitHub et le jeu ont été publiés à la demande du titulaire du compte. Aucun devoir ni email n’a été envoyé au professeur. L’expérience personnelle reste à compléter par les auteurs du rendu.
